@@ -28,21 +28,21 @@ export default function CartPage() {
       name: "Café Expresso",
       price: 3.5,
       quantity: 1,
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/espresso.avif",
     },
     {
       id: 2,
       name: "Sanduíche Natural",
       price: 8.9,
       quantity: 2,
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/sanduiche.avif",
     },
     {
       id: 3,
       name: "Bolo de Cenoura",
       price: 5.0,
       quantity: 1,
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/bolo.avif",
     },
   ]);
 
