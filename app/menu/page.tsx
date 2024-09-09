@@ -76,7 +76,12 @@ const menuItems: MenuItem[] = [
 
 export default function MenuPage() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [cart, setCart] = useState<MenuItem[]>([]);
+  const [
+    {
+      /*cart*/
+    },
+    setCart,
+  ] = useState<MenuItem[]>([]);
 
   const categories = [
     "Todos",
