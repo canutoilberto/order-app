@@ -43,7 +43,7 @@ export default function ProfilePage() {
           <div className="flex justify-center mb-6">
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=100&width=100"
+                src="https://i.pravatar.cc/150?img=33"
                 alt="Foto de perfil"
                 className="rounded-full w-24 h-24 object-cover"
                 width={1000}
