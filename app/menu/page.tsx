@@ -122,7 +122,7 @@ export default function MenuPage() {
                   (item) => category === "Todos" || item.category === category
                 )
                 .map((item) => (
-                  <Card key={item.id}>
+                  <Card key={item.id} className="flex flex-col h-full">
                     <CardHeader>
                       <Image
                         src={item.image}
@@ -132,7 +132,7 @@ export default function MenuPage() {
                         className="w-full h-40 object-cover rounded-t"
                       />
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="flex-grow">
                       <CardTitle>{item.name}</CardTitle>
                       <p className="text-sm text-muted-foreground">
                         {item.description}
@@ -141,7 +141,7 @@ export default function MenuPage() {
                         R$ {item.price.toFixed(2)}
                       </p>
                     </CardContent>
-                    <CardFooter>
+                    <CardFooter className="mt-auto">
                       <Button
                         onClick={() => addToCart(item)}
                         className="w-full"
